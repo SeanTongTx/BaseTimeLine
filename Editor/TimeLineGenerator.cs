@@ -33,7 +33,7 @@ public class TimeLineGenerator : CodeGenerator
     OnGUIUtility.Select<Type> Select_BaseClip = new OnGUIUtility.Select<Type>();
     OnGUIUtility.Select<Type> Select_BaseBehaviour = new OnGUIUtility.Select<Type>();
 
-    public override void OnEnable(SeanLibWindow drawer)
+    public override void OnEnable(SeanLibManager drawer)
     {
         this.templates.Add(TrackTemplate);
         this.templates.Add(MixerTemplate);
